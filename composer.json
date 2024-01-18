@@ -1,0 +1,27 @@
+{
+  "name": "toda/project",
+  "description": "Toda phalcon package",
+  "keywords": ["framework", "phalcon"],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Toda",
+      "email": "dttong93@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4.33",
+    "swiftmailer/swiftmailer": "~5.2",
+    "intervention/image": "^2.3"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Toda\\": "src/"
+    }
+  }
+}
